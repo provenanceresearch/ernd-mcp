@@ -1,0 +1,8 @@
+# Smithery config for the stdio build (https://smithery.ai/docs). The server needs no key or configuration.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    () => ({ command: "node", args: ["server.mjs"] })

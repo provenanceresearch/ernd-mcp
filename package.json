@@ -1,0 +1,23 @@
+{
+  "name": "ernd-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for the ernd card: estimate cash back on AI spend and list partner perks, from ernd.ai/rates.json.",
+  "mcpName": "ai.ernd/ernd",
+  "type": "module",
+  "bin": { "ernd-mcp": "server.mjs" },
+  "main": "server.mjs",
+  "files": ["server.mjs", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node server.mjs",
+    "http": "node server.mjs --http",
+    "test": "node test.mjs",
+    "test:live": "node test.mjs --live"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "mcp-server", "ernd", "credit card", "cash back", "ai spend"],
+  "homepage": "https://github.com/provenanceresearch/ernd-mcp#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/provenanceresearch/ernd-mcp.git" },
+  "bugs": { "url": "https://github.com/provenanceresearch/ernd-mcp/issues" },
+  "author": "ernd (Provenance Research Inc.) <https://ernd.ai>",
+  "license": "MIT"
+}

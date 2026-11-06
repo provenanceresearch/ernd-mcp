@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "name": "ernd card",
+  "description": "The credit card for the AI stack, for US companies.",
+  "url": "https://ernd.ai/",
+  "last_updated": "2026-11-05",
+  "card": {
+    "rates": [
+      {
+        "key": "ai_vendors",
+        "percent_back": 4,
+        "label": "4% back on AI vendor spend",
+        "applies_to": "Card spend at AI vendors such as OpenAI and Anthropic"
+      },
+      {
+        "key": "everything_else",
+        "percent_back": 1.5,
+        "label": "1.5% back on everything else",
+        "applies_to": "All other card spend"
+      }
+    ],
+    "cost": "Requesting a card is free, and there's no annual fee.",
+    "redemption": "Points are redeemable as cash back, and go further on travel ernd books and with recommended providers.",
+    "terms": "Final terms come with the card."
+  },
+  "availability": {
+    "who": "US companies",
+    "how": "A company admin sends the request for the company.",
+    "request_url": "https://app.ernd.ai"
+  },
+  "not_partners": {
+    "companies": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "statement": "OpenAI and Anthropic are not ernd partners or sponsors and don't endorse ernd. Cardholders pay them with the card like any other business card."
+  },
+  "partners": {
+    "order": "The order of the perk wall on ernd.ai: featured partners first, then the rest.",
+    "disclosure": "sponsored: true means the partner pays ernd for its listing. Featured partners appear first on ernd.ai, in the order ernd chose; Hopper, Agent 37 and Trace pay for their listing, and Wafer does not. Every other partner is listed for its perk alone.",
+    "categories": [
+      "inference",
+      "sandboxes",
+      "security",
+      "web-data",
+      "telephony",
+      "documents",
+      "other"
+    ],
+    "items": [
+      {
+        "name": "Wafer",
+        "url": "https://www.wafer.ai",
+        "ernd_page": null,
+        "perk": "10% back",
+        "note": "Serverless and dedicated inference for open models",
+        "category": "inference",
+        "featured": true,
+        "sponsored": false
+      },
+      {
+        "name": "Trace",
+        "url": "https://securewithtrace.com",
+        "ernd_page": null,
+        "perk": "62% off",
+        "note": "AI pen tests: the Startup plan for $1,500, normally $4,000",
+        "category": "security",
+        "featured": true,
+        "sponsored": true
+      },
+      {
+        "name": "Hopper",
+        "url": "https://withhopper.com",
+        "ernd_page": null,
+        "perk": "8% back",
+        "note": "On API credits, plus a free first month",
+        "category": "inference",
+        "featured": true,
+        "sponsored": true
+      },
+      {
+        "name": "Agent 37",
+        "url": "https://www.agent37.com",
+        "ernd_page": null,
+        "perk": "4% back",
+        "note": "Cheapest sandboxes for running agents",
+        "category": "sandboxes",
+        "featured": true,
+        "sponsored": true
+      },
+      {
+        "name": "Firecrawl",
+        "url": "https://www.firecrawl.dev",
+        "ernd_page": "https://ernd.ai/partners/firecrawl",
+        "perk": "2x usage limits",
+        "note": "Earns the standard 1.5% back. Firecrawl's extra is higher limits, not a higher rate.",
+        "category": "web-data",
+        "featured": false,
+        "sponsored": false
+      },
+      {
+        "name": "Superserve",
+        "url": "https://www.superserve.ai",
+        "ernd_page": "https://ernd.ai/partners/superserve",
+        "perk": "5% back",
+        "note": null,
+        "category": "sandboxes",
+        "featured": false,
+        "sponsored": false
+      },
+      {
+        "name": "Conifer",
+        "url": "https://www.conifer.build",
+        "ernd_page": "https://ernd.ai/partners/conifer",
+        "perk": "5% back",
+        "note": null,
+        "category": "inference",
+        "featured": false,
+        "sponsored": false
+      },
+      {
+        "name": "AgentPhone",
+        "url": "https://agentphone.ai",
+        "ernd_page": "https://ernd.ai/partners/agentphone",
+        "perk": "5% back",
+        "note": null,
+        "category": "telephony",
+        "featured": false,
+        "sponsored": false
+      }
+    ]
+  },
+  "publisher": {
+    "name": "ernd",
+    "legal_name": "Provenance Research Inc.",
+    "url": "https://ernd.ai/",
+    "llms_txt": "https://ernd.ai/llms.txt"
+  }
+}

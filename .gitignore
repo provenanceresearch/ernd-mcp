@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+*.pem
+*.key
+.mcpregistry_*
+.DS_Store
